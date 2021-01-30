@@ -15,4 +15,7 @@ describe('zip zode validation', () => {
     it('should not allow letters', () => {
         expectNotToMatch('asd566');
     })
+    it('should only allow 5 characters', () => {
+        expectNotToMatch('555555');
+    });
 })
