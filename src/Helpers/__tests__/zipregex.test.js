@@ -18,4 +18,5 @@ describe('zip zode validation', () => {
     it('should only allow 5 characters', () => {
         expectNotToMatch('555555');
     });
+    console.log('test')
 })
